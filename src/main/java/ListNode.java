@@ -9,14 +9,10 @@ import java.util.Random;
  */
 
 
-  public  class ListNode {
-     int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
- }
+
 
 class Solution {
-      static List<Integer> aaa=new ArrayList<Integer>();
+    static List<Integer> aaa=new ArrayList<Integer>();
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;
@@ -55,4 +51,3 @@ class Solution {
         }
     }
 }
-
