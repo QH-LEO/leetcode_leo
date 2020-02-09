@@ -14,7 +14,7 @@
 public class reversell {
     public reversell(ListNode a1) {
     }
-
+//尾插法也可逆转
     public static ListNode reverseList(ListNode head) {
         //申请节点，pre和 cur，pre指向null
         ListNode pre = null;
