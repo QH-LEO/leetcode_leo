@@ -31,6 +31,14 @@ public class reversell {
         }
         return pre;
     }
+    public static ListNode reverseList2(ListNode head) {
+        if (head == null || head.next == null) return head;
+        ListNode p = reverseList2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return p;
+    }
+
 
     public static void main(String[] args) {
         ListNode A1=new ListNode(1);
@@ -39,7 +47,7 @@ public class reversell {
         A1.next=A2;
         A2.next=A3;
         System.out.println(A1.next.val);
-        ListNode AA=reverseList(A1);
+        ListNode AA=reverseList2(A1);
         System.out.println(A3.next.val);
     }
 }
