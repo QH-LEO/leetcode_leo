@@ -1,3 +1,5 @@
+package testxxx;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -7,9 +9,6 @@ import java.util.Random;
  * @Date: 20-2-5  下午5:49
  * @Version 1.0
  */
-
-
-
 
 class Solution {
     static List<Integer> aaa=new ArrayList<Integer>();

@@ -1,9 +1,11 @@
+package testxxx;
+
 /**
  * @Author: Hao Qin
  * @Date: 20-2-5  下午9:33
  * @Version 1.0
  */
-public class longest_commonpart {
+public class LongestCommonPart {
 
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0)

@@ -1,3 +1,5 @@
+package testxxx;
+
 import java.util.HashMap;
 import java.util.Stack;
 
@@ -33,7 +35,7 @@ class match {
                 // Get the top element of the stack. If the stack is empty, set a dummy value of '#'
                 char topElement = stack.empty() ? '#' : stack.pop();
 
-                // If the mapping for this bracket doesn't match the stack's top element, return false.
+                // If the mapping for this bracket doesn't testxxx.match the stack's top element, return false.
                 if (topElement != this.mappings.get(c)) {
                     return false;
                 }
